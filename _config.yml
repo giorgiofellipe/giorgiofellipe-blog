@@ -1,0 +1,22 @@
+# Dependencies
+markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            DevThoughts
+tagline:          De desenvolvedor para desenvolvedor
+url:              http://blog.giorgiofellipe.com.br
+paginate:         1
+baseurl:          /
+author:
+  name:           Giorgio Fellipe
+  url:            https://giorgiofellipe.com.br
+  email:          giorgiofellipe@gmail.com
+
+# Custom vars
+version:          1.0.0
+github:
+  repo:           https://github.com/
