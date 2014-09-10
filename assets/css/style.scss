@@ -1,0 +1,220 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+$oldPink: #F16272;
+$salmon: #FF555A;
+$glacialWhite: #F7F6F6;
+$babyBlue: #00A5E7;
+$blue: #009BD9;
+$white: #ffffff;
+$darkGrey: #363b3f;
+$lightGrey: #b6b7b7;
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:500&subset=latin,latin-ext);
+
+@mixin transition-color($timeOut, $typeOut, $timeIn, $typeIn) {
+	-o-transition:color $timeOut $typeOut, background $timeIn $typeIn;
+	-ms-transition:color $timeOut $typeOut, background $timeIn $typeIn;
+	-moz-transition:color $timeOut $typeOut, background $timeIn $typeIn;
+	-webkit-transition:color $timeOut $typeOut, background $timeIn $typeIn;
+	transition:color $timeOut $typeOut, background $timeIn $typeIn;
+}
+
+body{
+	color: $darkGrey;
+}
+
+h1, h2, h3, h4, h5, h6 { 
+	font-family: 'Ubuntu', sans-serif; 
+}
+
+footer {
+	padding-top: 15px;
+	font-family: 'Ubuntu';
+	font-size: 12px;
+	text-align: center;
+}
+
+.sidebar {
+	position: fixed;
+	top: 0px;
+	padding-top: 10%;
+	background-color: $babyBlue;
+	color: $glacialWhite;
+}
+
+.sidebar-header {
+	text-align: center;
+	margin-bottom: 10px;
+	.title{
+		letter-spacing: 3px;
+		text-transform: uppercase;
+		a {
+			text-decoration: none;
+			color: $glacialWhite;
+		}
+	}
+}
+
+a.nav-link {
+	padding-bottom: 5px;
+	padding-top: 7px;
+	color: $darkGrey;
+	i {
+		font-size: 16px;
+	}
+	&:hover { 
+		color: $lightGrey;
+	}
+}
+
+#bio {
+	font-family: monospace; 
+	font-size: 11px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+#contact-list {
+	li {
+		.fa {
+			@include transition-color(.2s, ease-out, 1s, ease-in);
+		}
+		&:hover .fa-twitter {
+			color: #00ACEE;
+			border-color: #00ACEE;
+		}
+
+		&:hover .fa-linkedin {
+			color: #1D87BD;
+		}
+
+		&:hover .fa-envelope {
+			color: #E93E30;
+		}
+		
+		&:hover .fa-pinterest {
+			color: #CC2127;
+		}
+		
+		&:hover .fa-rss {
+			color: #e74c3c;
+		}
+	}
+}
+
+#contact-list-secondary {
+	padding-bottom: 10px;
+}
+
+article {
+	margin-bottom: 40px;
+	padding: 0 5% 0;
+	.share {
+		.btn {
+		  	@include transition-color(.2s, ease-out, 1s, ease-in);
+		}
+		.twitter:hover {
+			color: #00ACEE;
+			border-color: #00ACEE;
+		}
+		.facebook:hover {
+			color: #43609C;
+			border-color: #43609C;
+		}
+		.gplus:hover {
+			color: #C13929;
+			border-color: #C13929;
+		}
+	}
+	&.home div a, &.home pre a { 
+		color: #2c3e50; 
+	}
+	&.home div a:hover, &.home pre a:hover { 
+		color: #2c3e50; text-decoration: none; 
+	}
+ 	img { 
+ 		max-width: 100%; 
+ 	}
+	&.home h1,
+	&.home h2,
+	&.home h3,
+	&.home h4,
+	&.home h5,
+	&.home h6 {
+		font-family: 'Ubuntu', sans-serif;
+		color: $oldPink;
+		a {
+			color: $oldPink;
+			&:hover {
+			}
+		}
+	}
+}
+
+.page-header {
+	color: $oldPink;
+}
+
+.article_body{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post-date {
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: 3px;
+}
+
+.author .author-image {
+  float: left;
+  margin-right: 20px;
+}
+
+/* nav-vertical-tabs component */
+.nav-tabs-vertical {
+    border-right: 1px solid #ddd;
+	li {
+	    margin-right: -1px;
+	    & > a {
+		    line-height: 1.428571429;
+		    border: 1px solid transparent;
+		    border-radius: 4px 0 0 4px;
+		}
+	}
+
+	& > li.active {
+		& > a, & > a:hover, & > a:focus {
+		    color: #555;
+		    cursor: default;
+		    background-color: #fff;
+		    border: 1px solid #ddd;
+		    border-right-color: transparent;
+		}
+	}
+}
+
+.badge { 
+	background: $blue; 
+}
+
+#nav-menu{
+    position: fixed;
+    top: 45px;
+    right: 45px;
+    z-index: 2000;
+	.dropdown-menu {
+	    left: inherit;
+	    right: 0px;
+	}
+}
+
+ul.dropdown-menu > li > a > i.fa {
+    width: 1.3em;
+}
+
+#directories {
+	max-width: 100px;
+}
