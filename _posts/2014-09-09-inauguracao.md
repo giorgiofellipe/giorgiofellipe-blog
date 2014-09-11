@@ -60,7 +60,7 @@ Estas são as padrões, porém você pode organizar seu projeto com outras pasta
 Li bastante sobre Jekyll antes de começar a colocar a mão e fazer funcionar. Admito que nem sempre sou assim, mas com experiências recentes aprendi que todo tempo gasto estudando algo que você deseja fazer será recuperado ao colocar em prática.  
 Enfim, a maneira mais rápida de colocar um blog como este em produção é utilizando o <a href="https://github.com/poole/poole">poole</a>.
 
-`Antes de mais nada, você deverá ter Ruby instalado em sua máquina.`  
+> Antes de mais nada, você deverá ter Ruby instalado em sua máquina.  
 Partirei do pressuposto que você já o possui.
 
 Para usuários de Macs ou Linux é simples, basta digitar o seguinte em seu terminal:  
