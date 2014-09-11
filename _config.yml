@@ -12,7 +12,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: DevThoughts
+      title: Giorgio Fellipe
 
 description: De desenvolvedor para desenvolvedor
 author:
