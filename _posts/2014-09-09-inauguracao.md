@@ -79,3 +79,10 @@ Neste caso deverá ser adicionado ao seu DNS um registro CNAME com o prefixo des
 Pronto!
 -----
 Você já estará com seu blog online!
+
+
+###Dicas
+
+* No site <a href="http://jekyllthemes.org">Jekyll Themes</a> existem diversos temas para Jekyll site.
+* Leia a documentação no <a href="http://jekyllrb.com">site oficial</a>.
+* Sinta-se a vontade para me perguntar e pratique! ;)
