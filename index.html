@@ -9,13 +9,13 @@ tagline:
 
   <span class="post-date">
     {% assign d = post.date | date: "%d" | plus:'0' %}
-    {{ post.date | date: "%B" }}
     {% case d %}
-    {% when 1 or 21 or 31 %}{{ d }}st,
-    {% when 2 or 22 %}{{ d }}nd,
-    {% when 3 or 23 %}{{ d }}rd,
-    {% else %}{{ d }}th,
+    {% when 1 or 21 or 31 %}{{ d }}
+    {% when 2 or 22 %}{{ d }}
+    {% when 3 or 23 %}{{ d }}
+    {% else %}{{ d }}
     {% endcase %}
+    {{ post.date | date: "%B" }},
     {{ post.date | date: "%Y" }}
   </span>
 
