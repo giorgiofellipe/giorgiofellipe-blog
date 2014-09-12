@@ -73,8 +73,10 @@ $ gem install jekyll
 
 Para hospedar seu blog no GitHub basta fazer um fork do projeto <a href="https://github.com/poole/poole">poole</a> e criar o branch gh-pages deste repositório com todo o conteúdo neste branch.  
 Se você está utilizando um domínio próprio modifique o arquivo CNAME e aponte para seu domínio. Nome meu caso: `blog.giorgiofellipe.com.br`  
-Neste caso deverá ser adicionado ao seu DNS um registro CNAME com o prefixo desejado, no caso "blog".  
-> Caso você não esteja utilizando um domínio próprio deverá alterar o arquivo _config.yml, modificando o valor da variável baseurl para que a mesma seja apontada a URL do seu GitHub Pages. Por exemplo para o repositório github.com/username/repositoryname utilize http://username.github.io/repositoryname/ (não esqueça a barra ao final)
+Neste caso deverá ser adicionado ao seu DNS um registro CNAME com o prefixo desejado, no meu caso "blog".  
+
+Caso você não esteja utilizando um domínio próprio deverá alterar o arquivo _config.yml, modificando o valor da variável baseurl para que a mesma seja apontada a URL do seu GitHub Pages. Por exemplo para o repositório github.com/username/repositoryname utilize http://username.github.io/repositoryname/ (não esqueça a barra ao final)  
+Já no arquivo CNAME deve conter o seguinte: `username.github.io`
 
 Pronto!
 -----
