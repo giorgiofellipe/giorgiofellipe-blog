@@ -55,7 +55,7 @@ Existem algumas pastas padrões, elas são precedidas por um underline (_).
 
 Estas são as padrões, porém você pode organizar seu projeto com outras pastas. Ao gerar o conteúdo estático o Jekyll copia todas as pastas do projeto não precedidas por um underline (_), estas são ignoradas na geração do código final.
 
-###Mãos a massa
+###Mãos na massa
 
 Li bastante sobre Jekyll antes de começar a colocar a mão e fazer funcionar. Admito que nem sempre sou assim, mas com experiências recentes aprendi que todo tempo gasto estudando algo que você deseja fazer será recuperado ao colocar em prática.  
 Enfim, a maneira mais rápida de colocar um blog como este em produção é utilizando o <a href="https://github.com/poole/poole">poole</a>.
@@ -70,6 +70,14 @@ $ gem install jekyll
 
 
 > Se você utiliza <strong>windows</strong> há um <a href="http://jekyll-windows.juthilo.com">tutorial</a> escrito por <a href="https://twitter.com/juthilo">@juthilo</a> que explica como instalar.
+
+Uma vez instalado Jekyll para subir seu serviço basta digitar no terminal o seguinte comando:
+{% highlight bash %}
+$ jekyll serve
+{% endhighlight %}  
+Pronto, você pode acessar localmente sua página pela url `http://localhost:4000`  
+
+> <strong>Dica:</strong> O comando `$ jekyll serve --watch` faz com que o Jekyll fique "observando" as alterações realizadas no projeto e construa as páginas estáticas automaticamente quando houver alteração
 
 Para hospedar seu blog no GitHub basta fazer um fork do projeto <a href="https://github.com/poole/poole">poole</a> e criar o branch gh-pages deste repositório com todo o conteúdo neste branch.  
 Se você está utilizando um domínio próprio modifique o arquivo CNAME e aponte para seu domínio. Nome meu caso: `blog.giorgiofellipe.com.br`  
