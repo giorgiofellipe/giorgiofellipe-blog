@@ -32,7 +32,7 @@ Entretanto o Vagrant continua sendo uma máquina virtual, ainda que com muito ma
 Como funcionam
 -----
 
-O que o Docker faz é permitir-lhe, por usar AuFS como sistema de arquivos, reutilizar "imagens" entre vários de seus containers, em outras palavras, enquanto com uma imagem de 1GB do seu SO gastaria 5GB para subir 5 VMs normais, com Docker você continuaria usando 1GB, talvez um pouco mais, devido ao fato das camadas poderem ser compartilhadas entre seus containers.
+O que o Docker faz é permitir-lhe, por usar <a href="http://pt.wikipedia.org/wiki/Aufs">AuFS</a> como sistema de arquivos, reutilizar "imagens" entre vários de seus containers, em outras palavras, enquanto com uma imagem de 1GB do seu SO gastaria 5GB para subir 5 VMs normais, com Docker você continuaria usando 1GB, talvez um pouco mais, devido ao fato das camadas poderem ser compartilhadas entre seus containers.
 
 Algumas vantagens obtidas com a utilização do Docker:
 
