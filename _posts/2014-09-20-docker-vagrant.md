@@ -48,7 +48,7 @@ Quando utilizar um, outro ou ambos
 
 ###Quando usar o Docker
 
-* Como sistema de controle de versão do SO inteiro de sua aplicação
+* Como sistema de controle de versão do SO de sua aplicação
 * Quando você deseja distribuir (ou colaborar) o SO de sua aplicação com uma equipe
 * Para executar em seu computador a aplicação com o mesmo ambiente do servidor em que a mesma encontra-se em produção
 * Sempre que sua aplicação necessite de várias etapas de desenvolvimento (desenvolvimento, testes, qualidade, produção)
@@ -59,7 +59,8 @@ Basicamente nas mesmas situações do Docker, exceto pelo fato do versionamento 
 
 * Para executar em seu computador a aplicação com o mesmo ambiente do servidor em que a mesma encontra-se em produção
 * Sempre que sua aplicação necessite de várias etapas de desenvolvimento (desenvolvimento, testes, qualidade, produção)
-* Quando sua equipe trabalha com poucas aplicações/projetos simultâneos
+* Quando você ou sua equipe trabalham com poucas aplicações/projetos simultâneos
+* Quando seu ambiente necessitar de uma plataforma não-Linux algo como Windows, BSD, etc.
 
 ###Concluindo
 Ainda que pareçam competir entre si alguns adminsitradores conseguiram unir as duas tencnologais a modo de complementarem-se. 
