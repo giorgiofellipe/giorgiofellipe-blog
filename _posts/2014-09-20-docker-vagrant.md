@@ -26,7 +26,7 @@ Este VE (Virtual Environment - ambiente virtual) roda diretamente sobre o kernel
 Uma desvantagem que vale se observar a respeito do docker é de que, pelo fato de compartilhar o kernel, seus containers não terão completo isolamento.
 
 ###Vagrant
-Lançado em 2010, pode ser rapidamente resumido como um gerenciador de máquinas virtuais. Ele permite que você crie um script e empacote as configurações da máquina virtual. Sua proposta, assim como a do Docker, é acabar coma desculpa citada anteriormente do "na minha máquina funciona".  
+Lançado em 2010, pode ser rapidamente resumido como um gerenciador de máquinas virtuais. Ele permite que você crie um script e empacote as configurações da máquina virtual. Sua proposta, assim como a do Docker, é acabar com a desculpa de que "na minha máquina funciona".  
 Entretanto o Vagrant continua sendo uma máquina virtual, ainda que com muito mais recursos que as ferramentas comuns de virtualização. Por exemplo, talvez um dos recursos mais interessantes seja a possibilidade de integrá-lo com ferramentas de gestão de configuração (CM - Configuration Management), como Chef ou Puppet, para pré-configurar suas máquinas virtuais.
 
 Como funcionam
