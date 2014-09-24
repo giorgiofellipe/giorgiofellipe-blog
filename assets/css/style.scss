@@ -74,33 +74,37 @@ a.nav-link {
 	font-size: 11px;
 	margin: 0 auto;
 	margin-bottom: 10px;
+	p {
+		margin: 10px 0;
+	}
 }
 
 #contact-list {
 	li {
 		.fa {
+			color: $glacialWhite;
 			@include transition-color(.2s, ease-out, 1s, ease-in);
 		}
-		&:hover .fa-twitter {
-			color: #00ACEE;
-			border-color: #00ACEE;
-		}
+		// &:hover .fa-twitter {
+		// 	color: #00ACEE;
+		// 	border-color: #00ACEE;
+		// }
 
-		&:hover .fa-linkedin {
-			color: #1D87BD;
-		}
+		// &:hover .fa-linkedin {
+		// 	color: #1D87BD;
+		// }
 
-		&:hover .fa-envelope {
-			color: #E93E30;
-		}
+		// &:hover .fa-envelope {
+		// 	color: #E93E30;
+		// }
 		
-		&:hover .fa-pinterest {
-			color: #CC2127;
-		}
+		// &:hover .fa-pinterest {
+		// 	color: #CC2127;
+		// }
 		
-		&:hover .fa-rss {
-			color: #e74c3c;
-		}
+		// &:hover .fa-rss {
+		// 	color: #e74c3c;
+		// }
 	}
 }
 
