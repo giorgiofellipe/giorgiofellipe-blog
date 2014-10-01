@@ -3,8 +3,9 @@
 paginate: 5 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: true
+highlighter: pygments
 markdown: kramdown
+gems: ["emoji_for_jekyll"]
 
 title: Giorgio Fellipe
 BASE_PATH: 
