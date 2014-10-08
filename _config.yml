@@ -1,11 +1,14 @@
 # visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
 
-paginate: 3 # pagination based on number of posts
+paginate: 5 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: true
+highlighter: pygments
 markdown: kramdown
+gems: ["emoji_for_jekyll"]
 
+title: Giorgio Fellipe
+BASE_PATH: 
 
 defaults:
   -
@@ -21,9 +24,11 @@ author:
   github: giorgiofellipe
   twitter: giiorgio_
   pinterest: 
-  linkedin: 
-  bio: Desenvolvedor WEB e Mobile, 20 anos, aquariano, vascaíno, metido e orgulhoso
+  linkedin: giorgio-fellipe-cegatta-dos-santos/57/769/b94
+  bio: Desenvolvedor WEB e Mobile
   email_md5: 707b4151a10bb58827fd46754700a8e3
+
+home: giorgiofellipe.com.br
 
 rss_path: feed.xml
 categories_path: categories.html

@@ -23,7 +23,7 @@ Tá na hora de me apresentar!
 Pra quem não me conhece aqui vai uma mini-bio:  
 Meu nome é <strong>Giorgio Fellipe</strong>, tenho 20 anos, sou natural de Lages - SC, moro em Rio do Sul - SC há aproximadamente 12 anos.  
 Sou solteiro, aquariano, vascaíno, metido e orgulhoso.  
-Sou desenvolvedor de softwares desde 2011, já desenvolvi utilizando as linguagens <strong>COBOL, Java, PHP e JS</strong>. Atualmente estou focando meus estudos em <strong>tecnologias front-end</strong>, como <strong>AngularJS</strong>, por exemplo.
+Sou desenvolvedor de softwares desde 2011, já desenvolvi utilizando as linguagens <strong>COBOL, Java, PHP, JS e Java</strong>. Atualmente estou focando meus estudos em <strong>tecnologias front-end</strong>, como <strong>AngularJS</strong>, por exemplo.
 
 -----
 
