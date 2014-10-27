@@ -31,20 +31,10 @@ Utilizando jQuery teriamos algo como o seguinte:
     Este elemento aparecerá e desaparecerá conforme o estado do checkbox!
 </div>
 <script>
-    $(function() {
-         function toggle() {
-            var isChecked = $('#toggleStatus').is(':checked');
-            var elementTarget = $('#elementTarget');
-            if (isChecked) {
-                elementTarget.show();
-            } else {
-                elementTarget.hide();
-            }
-        }
-        $('#toggleStatus').change(function() {
-            toggle();
-        });
-        toggle();
+    $(function () {
+        $('#toggleStatus').change(function () {
+            $('#elementTarget').toggle(this.checked);
+        }).trigger('change');
     });
 </script>
 {% endhighlight %}
