@@ -63,7 +63,7 @@ Basicamente nas mesmas situações do Docker, exceto pelo fato do versionamento 
 * Quando seu ambiente necessitar de uma plataforma não-Linux algo como Windows, BSD, etc.
 
 ###Concluindo
-Ainda que pareçam competir entre si alguns adminsitradores conseguiram unir as duas tencnologais a modo de complementarem-se. 
+Ainda que pareçam competir entre si alguns administradores conseguiram unir as duas tencnologais a modo de complementarem-se. 
 
 Em determinado cenário temos a seguinte situação: Vagrant é utilizado para criar a máquina virtual base, então quando necessitar criar configurações distintas, mas que continuem utilizando esta base, utilize o Docker para pré-configurar e criar versões leves desta base. 
 
